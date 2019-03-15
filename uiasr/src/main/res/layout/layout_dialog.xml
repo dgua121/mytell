@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutdialog"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.baidu.aip.asrwakeup3.uiasr.view.view1.DguaDgV
+        android:id="@+id/layoutdialogDguaDgV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.baidu.aip.asrwakeup3.uiasr.view.view1.DguaViewBackground
+        android:id="@+id/layoutdialogDguaViewBackground21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

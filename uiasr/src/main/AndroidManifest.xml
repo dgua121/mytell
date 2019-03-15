@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baidu.aip.asrwakeup3.uiasr">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1912776650962590~4969958173"/>
+        <activity
+            android:name=".setting.OnlineSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="在线识别设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name=".setting.OfflineSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="在线识别设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name=".setting.NluSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="语义设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <activity
+            android:name=".setting.AllSetting"
+            android:configChanges="orientation|keyboardHidden|screenLayout"
+            android:label="识别设置"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light" />
+        <service
+            android:name=".Service.PhoneData"
+            android:exported="false" />
+        <service
+            android:name=".service.mewkservice"
+            android:exported="false" />
+
+        <service android:name=".Service.MishiData">
+            <intent-filter>
+                <action android:name="com.baidu.aip.asrwakeup3.uiasr.Service.MishiData" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.callService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.MymusicService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>

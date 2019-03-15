@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/a123">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.baidu.aip.asrwakeup3.uiasr.view.view1.Top
+            android:id="@+id/activitymainTop111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center_horizontal|center"
+            android:text="Button" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        <com.baidu.aip.asrwakeup3.uiasr.activity.CircleProgressView
+            android:id="@+id/circleProgressView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <!-- <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/adView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:gravity="bottom"
+             ads:adSize="SMART_BANNER"
+             ads:adUnitId="ca-app-pub-1912776650962590/7523312785"></com.google.android.gms.ads.AdView>
+
+         <com.baidu.aip.asrwakeup3.uiasr.view.DguaPagerView
+             android:id="@+id/pager1"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+         </com.baidu.aip.asrwakeup3.uiasr.view.DguaPagerView>
+ -->
+    </LinearLayout>
+
+    <!--<com.baidu.aip.asrwakeup3.uiasr.view.view1.DguaViewBackground1
+        android:id="@+id/activitymainDguaViewBackground111"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:text="Button"
+        android:visibility="visible" />
+-->
+
+</FrameLayout>

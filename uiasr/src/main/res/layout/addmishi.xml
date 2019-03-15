@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addmishiLinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6aec50"
+    android:orientation="vertical">
+
+    <com.baidu.aip.asrwakeup3.uiasr.view.view1.Top
+        android:id="@+id/addmishiTop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_vertical|center_horizontal|center"
+        android:text="Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="密匙" />
+
+    <EditText
+        android:id="@+id/addmishiEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="20dp"
+        android:ems="10"
+        android:inputType="text" />
+</LinearLayout>

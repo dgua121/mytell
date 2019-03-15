@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addPhoneLinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3b3b8e"
+    android:orientation="vertical">
+
+    <com.baidu.aip.asrwakeup3.uiasr.view.view1.Top
+        android:id="@+id/addTop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_vertical|center_horizontal|center"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/addTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="姓名"
+        android:textColor="#fcfcfc"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/addEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="20dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="手机号"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/addEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+</LinearLayout>
